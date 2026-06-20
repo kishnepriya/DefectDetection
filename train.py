@@ -6,8 +6,8 @@ from ultralytics import YOLO
 def parse_args():
     parser = argparse.ArgumentParser(description="Train YOLO Model for Defect Detection")
     parser.add_argument("--epochs", type=int, default=50, help="Number of training epochs")
-    parser.add_argument("--imgsz", type=int, default=320, help="Training image size (e.g. 320 for fast CPU training, 640 for standard)")
-    parser.add_argument("--batch", type=int, default=16, help="Batch size")
+    parser.add_argument("--imgsz", type=int, default=640, help="Training image size (e.g. 320 for fast CPU training, 640 for standard)")
+    parser.add_argument("--batch", type=int, default=8, help="Batch size")
     parser.add_argument("--data", type=str, default="dataset.yaml", help="Path to dataset.yaml")
     parser.add_argument("--weights", type=str, default="yolov8n.pt", help="Pretrained weights to start training (default: yolov8n.pt)")
     return parser.parse_args()
