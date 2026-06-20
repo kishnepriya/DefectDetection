@@ -1,0 +1,6 @@
+names:
+  0: crack
+  1: reference_object
+path: C:\Users\kishn\OneDrive\Desktop\Defect_Detection\dataset
+train: images\train
+val: images\val
