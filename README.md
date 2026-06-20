@@ -53,8 +53,7 @@ Defect_Detection/
 
 You can run size measurement on various sources using the `run_detection.py` CLI script.
 
-### 1. Test on Real Concrete Image (using Coin Fallback)
-This uses classical OpenCV circle detection to locate the coin, calculate the pixel-to-metric ratio, and measure the main crack:
+### 1. Test on Image
 ```bash
 python run_detection.py --source test_images/test.jpg --output test_1_output.jpg
 ```
@@ -64,7 +63,7 @@ python run_detection.py --source test_images/test.jpg --output test_1_output.jpg
 python run_detection.py --source path/to/video.mp4 --output output_video.mp4
 ```
 
-### 5. Run Live Webcam Feed (Bonus)
+### 5. Run Live Webcam Feed
 Pass `0` (or your webcam index) as the source parameter. Press `q` to exit:
 ```bash
 python run_detection.py --source 0
