@@ -70,7 +70,7 @@ python run_detection.py --source 0
 ```
 
 ---
-##Results on Image
+### Results on Image
 <img width="1024" height="1024" alt="test_1_output" src="https://github.com/user-attachments/assets/951a5ee0-8532-4f51-a9cb-a445b2de8fe4" />
 
 
