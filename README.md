@@ -1,4 +1,4 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/d8030911-c4fe-4176-bb23-795050fbdb6d" /># Object Defect Detection & Size Measurement using YOLO and OpenCV
+# Object Defect Detection & Size Measurement using YOLO and OpenCV
 
 A robust, hybrid computer vision solution that detects physical defects (cracks) on concrete surfaces using YOLOv8 and measures their real-world dimensions (length and width in centimeters) using OpenCV.
 
